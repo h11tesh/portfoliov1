@@ -1,0 +1,61 @@
+
+#pp{
+    height: 200px;
+    border-radius: 50%;
+}
+
+#navbar{
+  font-family: 'Poppins', sans-serif;
+}
+
+#hero{
+    height: 100vh;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 60px;
+   
+}
+
+#resume{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#skills{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#footer{
+    padding-bottom: 30px;
+    background: linear-gradient(300deg, #8EC5FC ,#9961ce);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #8EC5FC, #E0C3FC ,#9961ce);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#down-arrow{
+  height: 60px;
+  margin-top: 7%;
+  color: #212529bf;
+  opacity: 40%;
+}
